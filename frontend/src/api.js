@@ -1,4 +1,6 @@
-const API_BASE = "http://localhost:8000"; // FastAPI URL
+
+const BASE_URL = "https://sbc-backend-433678484066.europe-west1.run.app";
+
 
 export async function fetchValueBets() {
   const res = await fetch(`${API_BASE}/valuebets`);
